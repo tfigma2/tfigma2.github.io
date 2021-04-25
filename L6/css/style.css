@@ -1,0 +1,144 @@
+body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    min-height: 96.6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top right, #006363, #1D7373, #009999, #5CCCCC, #33CCCC);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D7373;
+}
+
+.header-text {
+    display: inline-block;
+    color: #fff;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-element {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #009999;
+}
+
+.header-element:hover {
+    background-color: #33CCCC;
+}
+
+.header-element a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-element a:hover {
+    text-decoration: underline;
+}
+
+.main, .main-section, .article {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    background-color: #f3f3f3;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+
+.about-photo {
+    max-height: 450px;
+}
+
+.news-photo {
+    max-width: 450px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.article-link {
+    background-color: #009999;
+    padding: 15px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-link:hover {
+    background-color: #33CCCC;
+    text-decoration: underline;
+}
+
+.photo {
+    max-height: 350px;
+    border-radius: 30px;
+}
+
+.table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #1D7373;
+}
+
+.table-head {
+    background-color: #1D7373;
+    color: #fff;
+}
+
+.table td {
+    text-align: center;
+}
+
+.teachers-list {
+    list-style-type: none;
+}
+
+.teachers-list li {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.teachers-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.heighter {
+    height: 100%;
+    margin-top: auto;
+}
+
+.footer {
+    background-color: #1D7373;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    width: 100%; /* Ширина слоя */
+}

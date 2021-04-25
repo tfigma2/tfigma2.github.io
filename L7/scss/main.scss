@@ -1,0 +1,33 @@
+@import "colors";
+
+.main, .main-section, .article {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  background-color: #f3f3f3;
+  margin-top: $size/2;
+  margin-bottom: $size/2;
+  padding: $size/2;
+
+  &-photo {
+    max-height: 450px;
+  }
+
+  &-link {
+    background-color: $three;
+    padding: $size/2;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $five;
+      text-decoration: underline;
+    }
+  }
+}

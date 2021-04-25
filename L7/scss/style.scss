@@ -1,0 +1,49 @@
+@import "../oldCSS/normalize.css";
+@import "colors";
+
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  min-height: 96.6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top right, $one, $two, $three, $four, $five);
+}
+
+@import "header";
+@import "main";
+@import "table";
+@import "teachers";
+
+.news-photo {
+  max-width: 450px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.photo {
+  max-height: 350px;
+  border-radius: $size;
+}
+
+
+.heighter {
+  height: 100%;
+  margin-top: auto;
+}
+
+.footer {
+  background-color: #1D7373;
+  height: $size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0; bottom: 0;
+  width: 100%;
+}

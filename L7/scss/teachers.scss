@@ -1,0 +1,17 @@
+@import "colors";
+
+.teachers {
+  &-list {
+    list-style-type: none;
+
+    & li {
+      font-size: 18px;
+      text-align: justify;
+    }
+  }
+
+  &-section {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+}

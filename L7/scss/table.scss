@@ -1,0 +1,16 @@
+@import "colors";
+
+.table {
+  margin-top: $size/2;
+  margin-bottom: $size/2;
+  border: 1px solid $two;
+
+  &-head {
+    background-color: $two;
+    color: #fff;
+  }
+
+  & td {
+    text-align: center;
+  }
+}

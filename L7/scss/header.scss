@@ -1,0 +1,44 @@
+@import "colors";
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $two;
+
+  &-text {
+    display: inline-block;
+    color: #fff;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &-element {
+    display: inline-block;
+    margin-right: $size/3;
+    margin-left: $size/3;
+    padding: $size/2;
+    background-color: $three;
+
+    &:hover {
+      background-color: $five;
+    }
+
+    & a {
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+

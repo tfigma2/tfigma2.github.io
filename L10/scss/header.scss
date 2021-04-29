@@ -1,0 +1,61 @@
+@import "vars";
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $two;
+
+  &-text {
+    display: inline-block;
+    color: #fff;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 0;
+
+    @media(max-width: calc(#{$my} - 1px)) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &-element {
+    display: inline-block;
+    margin-right: $size/3;
+    margin-left: $size/3;
+    padding: $size/2;
+    background-color: $three;
+
+    @media(max-width: calc(#{$my} - 1px)) {
+      display: flex;
+      justify-content: center;
+      margin-top: $size/4;
+      margin-bottom: $size/4;
+    }
+
+    &:hover {
+      background-color: $five;
+    }
+
+    & a {
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+
+      @media(max-width: calc(#{$my} - 1px)) {
+        display: inline-block;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+

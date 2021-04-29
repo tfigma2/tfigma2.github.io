@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Laila');
+@media print{
+    body, .article-link{
+        margin: 50px;
+        background: #fff;
+        font-family: 'Times New Roman', serif;
+        color: black;
+    }
+
+    .container{
+    }
+
+    .header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .about-photo, .news-photo, .photo {
+        display: none;
+    }
+
+    a:after {content:" <" attr(href) ">";}
+
+    .table {
+        border: 1px;
+        border-color: black;
+    }
+}

@@ -1,0 +1,35 @@
+.slides {
+    height: 210px;
+    width: 300px;
+    margin: auto;
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+img {
+    display: block;
+}
+#sl{
+    position: relative;
+    height: 150px;
+    list-style-type: none;
+}
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing{
+    opacity: 1;
+    z-index: 2;
+}ы

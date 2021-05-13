@@ -1,0 +1,145 @@
+$padding: 20px;
+$fontt: 16px Comic Sans MS;
+
+@mixin body{
+  padding: $padding;
+  font: $fontt;
+}
+
+h1{
+  margin: 10px;
+  text-align: center;
+  font: bold 45px Comic Sans MS;
+}
+.head{
+  background: darkgray;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  margin: auto;
+  height: 125px;
+
+}
+/*заголовок*/
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.navig_all{
+  width: 400px;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+
+.navig{
+  display: flex;
+}
+
+.navig li{
+  font: bold 15px Comic Sans MS;
+  list-style: none;
+  margin: auto;
+  text-decoration: none;
+}
+
+.navig a{
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.navig a:hover{
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  background: black;
+
+}
+/* нафигация */
+
+h2{
+  text-align: center;
+  font: bold 20px Comic Sans MS;
+}
+
+table
+{
+  margin: auto;
+  text-align: left;
+}
+
+
+.body{
+  background: darkgray;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  margin: auto;
+  height: auto;
+  width: 505px;
+  font: bold 15px Comic Sans MS;
+
+}
+
+.TXT{
+  background: darkgray;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  margin: auto;
+}
+
+html, body {
+  height: 100%;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  margin-top: 100px;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+html{
+  background: radial-gradient(#648880, #293f50);
+
+}
+
+@media only screen and (max-width: 940px) {
+  .head{
+    background: darkgray;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin: auto;
+    height: auto;
+
+  }
+  .navig_all{
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin: 0 auto;
+
+  }
+
+  .navig{
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-align-all: center;
+  }
+
+  .navig li{
+    font: bold 15px Comic Sans MS;
+    margin: auto;
+  }
+
+  .navig a{
+    color: white;
+  }
+}
